@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>AI Traffic Monitoring – MVP</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>🚦 AI Traffic Monitoring System</h1>
+    <p>Hackathon MVP – Queue Analysis & Rule Violation Detection</p>
+  </header>
+
+  <main>
+    <div class="video-section">
+      <video id="trafficVideo" autoplay loop muted>
+        <source src="traffic.mp4" type="video/mp4" />
+        Your browser does not support video.
+      </video>
+    </div>
+
+    <div class="stats-section">
+      <div class="card">
+        <h2>Queue Length</h2>
+        <p id="queueCount">0</p>
+      </div>
+
+      <div class="card violation">
+        <h2>Violations</h2>
+        <p id="violationCount">0</p>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>Powered by YOLOv8 • Computer Vision • AI</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

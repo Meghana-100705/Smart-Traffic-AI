@@ -80,7 +80,7 @@ Visualization is handled using **OpenCV**.
 pip install -r requirements.txt
 python backend/main.py
 
-##🚀 Future Enhancements
+## 🚀 Future Enhancement
 
 The following features are planned for future development:
 
@@ -95,3 +95,5 @@ Web-based dashboard for real-time analytics
 Live camera feed integration
 
 Smart traffic signal optimization
+
+---

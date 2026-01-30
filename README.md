@@ -80,7 +80,7 @@ Visualization is handled using **OpenCV**.
 pip install -r requirements.txt
 python backend/main.py
 
-🚀 Future Enhancements
+##🚀 Future Enhancements
 
 The following features are planned for future development:
 
